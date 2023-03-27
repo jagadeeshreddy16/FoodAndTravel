@@ -1,0 +1,115 @@
+#body_of_page1{
+    width: 100%;
+    height: 230vh;
+}
+body{
+    background-image: linear-gradient(rgb(86, 83, 83),rgb(55, 53, 53));
+}
+#containerinfo{
+    width: 80%;
+    height: 80vh;
+    background-color: rgb(155, 146, 146);
+    position: absolute;
+    top: 105vh;
+    left: 10%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+    overflow: hidden;
+}
+#vlogerpic{
+    width: 40%;
+    height: 80vh;
+    position: absolute;
+    background-image: url(../ASSET/Images/mike_corey.jpg);
+    background-size: 100% 80vh;
+}
+#vlogername{
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    font-size: 80px;
+    letter-spacing: 20px;
+    text-shadow: 2px 2px 7px black;
+}
+#vlogerinfo{
+    position: absolute;
+    left: 500px;
+    top: 140px;
+    text-align: justify;
+    word-spacing: 5px;
+    text-indent: 80px;
+    color: black;
+    line-height: 30px;
+    /* text-shadow: 0px 0px 1px black; */
+}
+#table{
+    border: 5px solid orange;
+    border-collapse: collapse;
+    position: absolute;
+    top: 187vh;
+    left: 30%;
+}
+th{
+    border: 2px solid black;
+    padding: 30px;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.anchor{
+    color: lavender;
+    text-shadow: 0px 0px 2px black;
+    transition: color 1s;
+}
+.anchor:hover{
+    color: orange;
+    text-decoration: underline;
+}
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    position: absolute;
+    top: 228vh;
+}
+#cpr{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+#cprtext{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+#social{
+    float: right;
+}
+.fa-brands{
+    font-size: 24px;
+    letter-spacing: 10px;
+    padding-top: 10px;
+}
+.fa-brands:hover{
+    color: chartreuse;
+}
+#up{
+    width: 80px;
+    height: 80px;
+    background-color: darkolivegreen;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+#arrow{
+    position: fixed;
+    bottom: 70px;
+    right: 32px;
+    font-size: 45px;
+    text-shadow: 0px 0px 10px black; 
+}
+i{
+    color:black;
+}

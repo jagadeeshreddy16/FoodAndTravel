@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../CSS/dubaigallery.css">
+    <link rel="icon" href="../ASSET/logos/logo.png">
+    <script src="../JAVASCRIPT/japangallery.js" defer></script>
+    <script src="https://kit.fontawesome.com/0f64dbd7ba.js" crossorigin="anonymous"></script>
+</head>
+<body onload="header()">
+    <div id="header">
+        <ul id="navbar">
+            <li class="sublist" id="home"><a href="./Food and Travel.html" >Home</a></li>
+            <li class="sublist" id="info"><a href="./info.html">info</a></li>
+            <li class="sublist" id="logout"><a href="../index.html">logout</a></li>
+        </ul>
+        <h1 id="text">Japan<br> Gallery</h1>
+        <button id="left" onclick="left()"> < </button>
+        <button id="right" onclick="right()"> > </button>
+    </div>
+    <div id="bodyOfGallery">
+        <div id="gallery">
+            <img class="images" onclick="openTheImg(0,'Sushi','Sushi is a Japanese dish of prepared vinegared rice usually with some sugar and salt, accompanied by a variety of ingredients, such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is sushi rice, also referred to as shari or sumeshi.')">
+            <img class="images" onclick="openTheImg(1,'Noodles','Noodles are a type of food made from unleavened dough which is either rolled flat and cut, stretched, or extruded, into long strips or strings. Noodles are a staple food in many cultures (for example, Chinese noodles, Filipino noodles, Indonesian noodles, Japanese noodles, Korean noodles, Vietnamese noodles, and Long and medium length Italian pasta) and made into a variety of shapes.')">
+            <img class="images" onclick="openTheImg(2,'Gyoza Dumplings','They are also known as Jiaozi and are an essential part of traditional Japanese New Year celebrations. Typically gyoza is made from a thinly rolled dough filled with ground meat and vegetables, which can then be boiled, steamed or fried, and served hot with a dash of black vinegar and sesame oil or in a soup.')">
+            <img class="images" onclick="openTheImg(3,'Saba zushi','This pressed sushi variety consist of a sushi rice base that is topped with marinated mackerel fillet, which is typically covered with a thin, delicate layer of kelp. Unlike other pressed sushi varieties, saba zushi is not made in traditional wooden appliances, but the whole creation is usually wrapped in bamboo leaves to achieve its distinctive form.')">
+            <img class="images" onclick="openTheImg(4,'Sushi Rolls','Sushi Rolls or Uramaki are rolls filled with rice on the outside, nori (edible seaweed) in the middle and  delicious fillings inside.Maki Sushi are rolls with rice on the inside with the fillings, all wrapped inside the nori.All sushi are accompanied with soy sauce, wasabi, gari (ginger) & chopsticks.')">
+            <img class="images" onclick="openTheImg(5,'kobe beef','Kobe beef is Wagyu beef from the Tajima strain of Japanese Black cattle, raised in Japans Hyogo Prefecture according to rules set out by the Kobe Beef Marketing and Distribution Promotion Association.The meat is a delicacy, valued for its flavor, tenderness, and fatty, well-marbled texture. Kobe beef can be prepared as steak, sukiyaki, shabu shabu, sashimi, and teppanyaki.')">
+            <img class="images" onclick="openTheImg(6,'Takikomi Gohan','Takikomi Gohan is a wonderful and comforting Japanese mixed rice recipe made with seasonal ingredients. This recipe is also gluten-free!')">
+            <img class="images" onclick="openTheImg(7,'Ehomaki','Also known as the lucky direction sushi, ehomaki is a sushi roll consisting of nori seaweed, vinegared rice, and seven different fillings, each representing one god of fortune. The fillings may vary, but they usually include cucumbers, dried gourd, eel, shiitake mushrooms, fish, egg omelet, or tofu.')">
+            <img class="images" onclick="openTheImg(8,'Sencha ','Sencha Fukamushi is the most common green tea consumed in Japan. It is produced by picking only the youngest tea leaves; these sencha leaves are then steamed, rolled, and dried. With a good balance of acidity and sweetness, sencha makes a great everyday tea')">
+        </div>
+    </div>
+    <div id="Bigimage" style="display: none;">
+        <h1 id="close" onclick="closeTheImage()">X</h1>
+        <div id="imgMessage">
+            <h1 id="imageTitle"></h1>
+            <p id="imgContent"></p>
+            <img id="bigimg">
+        </div>
+    </div>
+    <div id="footer">
+        <i id="cpr" class="fa-solid fa-copyright"></i>
+        <span id="cprtext">This copyright belongs to JR</span>
+        <div id="social">
+           <a href="https://www.snapchat.com/" target="_blank"> <i  class="fa-brands fa-snapchat"></i></a>
+           <a href="https://www.instagram.com/_jagadeeshreddy_" target="_blank"> <i  class="fa-brands fa-instagram"></i></a>
+           <a href="https://www.facebook.com/" target="_blank"> <i  class="fa-brands fa-facebook"></i></a>
+           <a href="https://www.twitter.com" target="_blank"><i  class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+</div>
+<div id="up">
+    <a href="#" target="_top"><i id="arrow" class="fa-solid fa-arrow-up"></i></a>
+</div>
+</body>
+</html>

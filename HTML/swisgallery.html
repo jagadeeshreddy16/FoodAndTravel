@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../CSS/dubaigallery.css">
+    <link rel="icon" href="../ASSET/logos/logo.png">
+    <script src="../JAVASCRIPT/swisgallery.js" defer></script>
+    <script src="https://kit.fontawesome.com/0f64dbd7ba.js" crossorigin="anonymous"></script>
+</head>
+<body onload="header()">
+    <div id="header">
+        <ul id="navbar">
+            <li class="sublist" id="home"><a href="./Food and Travel.html" >Home</a></li>
+            <li class="sublist" id="info"><a href="./info.html">info</a></li>
+            <li class="sublist" id="logout"><a href="../index.html">logout</a></li>
+        </ul>
+        <h1 id="text">Swis<br>Gallery</h1>
+        <button id="left" onclick="left()"> < </button>
+        <button id="right" onclick="right()"> > </button>
+    </div>
+    <div id="bodyOfGallery">
+        <div id="gallery">
+            <img class="images" onclick="openTheImg(0,'Wurstsalat',`Wurstsalat is the perfect dish made from just a few ingredients including wurst (sausage), cheese, onions, and pickles this hearty snack salad is served with a simple vinaigrette dressing.`)">
+            <img class="images" onclick="openTheImg(1,'Rosti (Swiss Potato Cake)',' Rösti are not merely potato pancakes with a Swiss-German name. They are, quite specifically, potato pancakes made from pre-cooked potatoes. I would not blame anyone for not knowing that. Read almost any recipe that is from a knowledgable Swiss-German source, and you almost universally be led to believe that rösti are made like any other potato pancake, by grating raw potato, seasoning it, and cooking it in a skillet with a good amount of fat until crispy.')">
+            <img class="images" onclick="openTheImg(2,'Asparagus','Asparagus is rich in minerals and vitamins A, C and folic acid. Its a fibrous vegetable that may support a healthy gut, as well as help to lower blood pressure. For these reasons, it can be considered a healthy addition to any diet.')">
+            <img class="images" onclick="openTheImg(3,'Raclette','Raclette is a Swiss dish, also popular in the other Alpine countries, based on heating cheese and scraping off the melted part, then typically served with boiled potatoes. Raclette cheese is historically a dish originating from the canton of Valais in Switzerland.')">
+            <img class="images" onclick="openTheImg(4,'Crepes','A crepe or crepe is a very thin type of pancake. Crepes are usually one of two varieties: sweet crepes or savoury galettes. They are often served with a wide variety of fillings such as cheese, fruit, vegetables, meats, and a variety of spreads. Crepes can also be flambéed, such as in crepes Suzette.')">
+            <img class="images" onclick="openTheImg(5,'Loaf Chocolate Sweet','Loaf is a staple food prepared from a dough of flour (usually wheat) and water, usually by baking. Throughout recorded history and around the world, it has been an important part of many cultures diet. It is one of the oldest human-made foods, having been of significance since the dawn of agriculture, and plays an essential role in both religious rituals and secular culture.')">
+            <img class="images" onclick="openTheImg(6,'Tartiflette','Tartiflette is a dish from Savoy in the French Alps and from Aosta Valley. It is made with potatoes, reblochon cheese, lardons and onions. A splash of white wine can be added too.')">
+            <img class="images" onclick="openTheImg(7,'Papet Vaudois','This dish consists of a mixture of potatoes and leeks cooked in water and white wine cooked with a cabbage sausage. The Vaudois (people of “the land of Vaud”) like to offer this specialty to their foreign guests.')">
+            <img class="images" onclick="openTheImg(8,'Fondue','Fondue is a Swiss melted cheese and wine dish served in a communal pot over a portable stove heated with a candle or spirit lamp, and eaten by dipping bread into the cheese using long-stemmed forks. It was promoted as a Swiss national dish by the Swiss Cheese Union in the 1930s, and was popularized in North America in the 1960s.')">
+        </div>
+    </div>
+    <div id="Bigimage" style="display: none;">
+        <h1 id="close" onclick="closeTheImage()">X</h1>
+        <div id="imgMessage">
+            <h1 id="imageTitle"></h1>
+            <p id="imgContent"></p>
+            <img id="bigimg">
+        </div>
+    </div>
+    <div id="footer">
+        <i id="cpr" class="fa-solid fa-copyright"></i>
+        <span id="cprtext">This copyright belongs to JR</span>
+        <div id="social">
+           <a href="https://www.snapchat.com/" target="_blank"> <i  class="fa-brands fa-snapchat"></i></a>
+           <a href="https://www.instagram.com/_jagadeeshreddy_" target="_blank"> <i  class="fa-brands fa-instagram"></i></a>
+           <a href="https://www.facebook.com/" target="_blank"> <i  class="fa-brands fa-facebook"></i></a>
+           <a href="https://www.twitter.com" target="_blank"><i  class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+</div>
+<div id="up">
+    <a href="#" target="_top"><i id="arrow" class="fa-solid fa-arrow-up"></i></a>
+</div>
+</body>
+</html>

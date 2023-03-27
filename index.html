@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Food And Travel</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="icon" href="./ASSET/logos/travel-food-logo.webp">
+    <script src="./JAVASCRIPT/index.js" defer></script>
+</head>
+<body id="container">
+        <div id="subcontainer">
+            <form  id="fom">
+            <div id="mini">
+                <h1 id="login">Login</h1>
+                <div id="emailDiv">
+                    <input id="Email" type="email" placeholder="Enter the Email">
+                </div>
+                <div id="passDiv">
+                    <input id="pass" type="password" placeholder="Enter the password">
+                    <img src="./ASSET/logos/closeeyes.png" id="visible" onmousedown="visiblePassword()" onmouseup="hidePassword()">
+                </div>
+                <h1 id="result"></h1>
+                <input type="button" value="Login" id="but" onclick="autho()">
+            </div>
+        </form>
+        </div>
+</body>
+</html>

@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#body_of_page{
+    width: 100%;
+    height: 626vh;
+    background-image: linear-gradient(rgb(21, 21, 24),rgb(12, 9, 9));
+    position: absolute;
+    z-index: -1;
+}
+#container_1,#container_2,#container_3,#container_4{
+    width: 100%;
+    height: 120vh;
+    /* background-color:aqua; */
+    position: absolute;
+    top: 110vh;
+}
+#anglecut1,#anglecut2,#anglecut3,#anglecut4{
+    z-index: 3;
+    /* position: absolute; */
+    width: 100%;
+    height: 120vh;
+    /* background-color: chartreuse; */
+    clip-path: polygon(60% 0, 100% 0%, 100% 100%, 0% 100%);
+    box-shadow: 0px 0px 10px black;
+}
+#loc{
+    width:100%;
+    height: 50vh;
+    position: absolute;
+    right: 0px;
+    
+}
+iframe{
+    width: 99%;
+    height: 100%;
+    transition: transform 0.5s;
+}
+#video{
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+#vid{
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    border-top: 15px solid rgb(28, 21, 21);
+    transition: transform 0.5s;
+}
+#head1,#head2,#head3,#head4{
+    position: absolute;
+    font-size: 60px;
+    left: 170px;
+    top: 20px;
+    color:rgb(214, 171, 61);
+    text-shadow: 0px 0px 5px black;
+    letter-spacing: 10px;
+    font-family: 'Righteous', cursive;
+}
+p{
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 100px;
+    left: 10px;
+    font-family: 'Source Serif Pro', serif;
+    color: cornsilk;
+}
+#biryanilist{
+    position: absolute;
+    top: 340px;
+    color: white;
+    font-size: 24px;
+    left: 60px;
+    color: cornsilk;
+    font-family: 'Source Serif Pro', serif;
+}
+#container_2{
+    top: 240vh;
+}
+#container_3{
+    top: 370vh;
+}
+#container_4{
+    top: 500vh;
+}
+#anglecut2{
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+}
+#anglecut4{
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+}
+#head2{
+    left: 1200px;
+}
+#head4{
+    left: 1100px;
+}
+#pizzalist{
+    position: absolute;
+    left: 1070px;
+    text-align:justify;
+    right: 20px;
+    font-family: 'Source Serif Pro', serif;
+    color: cornsilk;
+}
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    position: absolute;
+    bottom: 0px;
+}
+#cpr{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+#cprtext{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+#social{
+    float: right;
+}
+.fa-brands{
+    font-size: 24px;
+    letter-spacing: 10px;
+    padding-top: 10px;
+}
+.fa-brands:hover{
+    color: chartreuse;
+}
+#up{
+    width: 80px;
+    height: 80px;
+    background-color: darkolivegreen;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+#arrow{
+    position: fixed;
+    bottom: 70px;
+    right: 32px;
+    font-size: 45px;
+    text-shadow: 0px 0px 10px black; 
+}
+i{
+    color:black;
+}

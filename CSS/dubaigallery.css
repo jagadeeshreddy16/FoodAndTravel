@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    background-size: 100% 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px black;
+    transition: all 1s;
+    z-index: 1;
+}
+#left,#right{
+    width: 120px;
+    height: 120px;
+    font-size: 80px;
+    background-color: transparent;
+    border: none;
+}
+#left{
+    position: absolute;
+    left: 0px;
+}
+#right{
+    position: absolute;
+    right: 0px;
+}
+#text{
+    position: absolute;
+    top: 0px;
+    font-size: 240px;
+    letter-spacing: 30px;
+    text-shadow: 8px 8px 8px gray;
+    color:orange;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* thisIsTheCodeForNavbar */
+#navbar{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    height: 120px;
+    left: 20px;
+}
+#logout{
+    font-size: 30px;
+    position:absolute;
+    left: 90vw;
+    cursor: pointer;
+}
+#home{
+    position: absolute;
+    font-size: 30px;
+    left: 3vw;
+}
+#info{
+    position: absolute;
+    font-size: 30px;
+    left: 10vw;
+}
+a:hover{
+    color:orange;
+    transform: scale(1.2);
+}
+a{
+    font-weight:300;
+    text-decoration: none;
+    color: brown;
+    transition: all 1s;
+}
+/* thisIsGalleryCode */
+#bodyOfGallery{
+    background-image: linear-gradient(rgb(48, 42, 42),rgb(45, 32, 32),black);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 150vh;
+    position: relative;
+}
+.images{
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    border-radius: 30px;
+    transition: transform 0.3s;
+    margin: 1vw;
+}
+.images:hover{
+    transform: scale(1.2);
+}
+#gallery{
+   display: flex;
+   justify-content: space-around;
+   align-content: space-around;
+   flex-wrap: wrap;
+}
+#Bigimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(32, 30, 30, 0.794);
+}
+#bigimg{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+#close{
+    position: absolute;
+    top: 65px;
+    right: 200px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+.sublist{
+    display: flex;
+    justify-content: start;
+}
+#imgMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 70vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.837);
+    border-radius: 20px;
+}
+#imageTitle{
+    position: absolute;
+    color:orange;
+    top: 20px;
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px gray;
+    letter-spacing: 5px;
+}
+#imgContent{
+    position: absolute;
+    text-align: justify;
+    font-size: 22px;
+    top: 200px;
+    left: 560px;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(247, 190, 104);
+    text-indent: 50px;
+    margin-right: 20px;
+}
+/* thisIsTheCodeForFooter */
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    position: absolute;
+    top: 250vh;
+}
+#cpr{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+#cprtext{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+#social{
+    float: right;
+}
+.fa-brands{
+    font-size: 24px;
+    letter-spacing: 10px;
+    padding-top: 10px;
+}
+.fa-brands:hover{
+    color: chartreuse;
+}
+#up{
+    width: 80px;
+    height: 80px;
+    background-color: darkolivegreen;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+#arrow{
+    position: fixed;
+    bottom: 70px;
+    right: 32px;
+    font-size: 45px;
+    text-shadow: 0px 0px 10px black; 
+}
+i{
+    color:black;
+}

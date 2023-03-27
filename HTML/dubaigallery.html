@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../CSS/dubaigallery.css">
+    <link rel="icon" href="../ASSET/logos/logo.png">
+    <script src="../JAVASCRIPT/dubaigallery.js" defer></script>
+    <script src="https://kit.fontawesome.com/0f64dbd7ba.js" crossorigin="anonymous"></script>
+</head>
+<body onload="header()">
+    <div id="header">
+        <ul id="navbar">
+            <li class="sublist" id="home"><a href="./Food and Travel.html" >Home</a></li>
+            <li class="sublist" id="info"><a href="./info.html">info</a></li>
+            <li class="sublist" id="logout"><a href="../index.html">logout</a></li>
+        </ul>
+        <h1 id="text">Dubai<br>Gallery</h1>
+        <button id="left" onclick="left()"> < </button>
+        <button id="right" onclick="right()"> > </button>
+    </div>
+    <div id="bodyOfGallery">
+        <div id="gallery">
+            <img class="images" onclick="openTheImg(0,'King Prawn Biryani','This king prawn biryani is the perfect weekend treat. It takes a little time to cook but the end result is so worth it! Plus it leaves your whole house smelling absolutely delicious! Don’t be put off by the number of ingredients – most of them are spices and there is actually only a small amount of prep or chopping involved.')">
+            <img class="images" onclick="openTheImg(1,'Cha Gio','Chả gio, also known as fried spring roll, is a popular dish in Vietnamese cuisine and usually served as an appetizer in Europe, North America & Australia, where there are large Vietnamese diaspora. It is ground meat, usually pork, wrapped in rice paper and deep-fried.')">
+            <img class="images" onclick="openTheImg(2,'Grilled Meat','The age-old combo of lamb and mint gets a smart upgrade in this summer grilling recipe, where the herb is folded into a tangy yogurt sauce and the meat cooks luxuriantly over smoky, indirect heat.')">
+            <img class="images" onclick="openTheImg(3,'Pasta','Pasta is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shapes, then cooked by boiling or baking. Rice flour, or legumes such as beans or lentils, are sometimes used in place of wheat flour to yield a different taste and texture, or as a gluten-free alternative. Pasta is a staple food of Italian cuisine.')">
+            <img class="images" onclick="openTheImg(4,'Chicken tikka masala','Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in a spiced sauce. The sauce is usually creamy and orange-coloured. The dish was popularised by cooks from India living in Great Britain and is offered at restaurants around the world')">
+            <img class="images" onclick="openTheImg(5,'Arabic Mezze platter','Arabic Mezze Platter - The word Mezze in the Middle. Eastern countries means sharing and it is a platter. consisting of small portions of appetizers usually. served before the main course, what you see here is. just a small portion of it')">
+            <img class="images" onclick="openTheImg(6,'Food Dessert','A food desert is an area that has limited access to affordable and nutritious food.In contrast, an area with greater access to supermarkets and vegetable shops with fresh foods may be called a food oasis.The designation considers the type and the quality of food available to the population, in addition to the accessibility of the food through the size and the proximity of the food stores.')">
+            <img class="images" onclick="openTheImg(7,' Burger And Fries','With gooey, melty cheese on a double burger with browned and crusty bits, plus fresh, crunchy toppings and a soft, steamy bun served alongside golden fries, this is pretty darn close to the real thing served at that restaurant chain run by those five brothers. Make these burgers and fries at home and save lots of money while satisfying your fast food cravings')">
+            <img class="images" onclick="openTheImg(8,'Pancake','A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter. It is a type of batter bread. Archaeological evidence suggests that pancakes were probably eaten in prehistoric societies.')">
+        </div>
+    </div>
+    <div id="Bigimage" style="display: none;">
+        <h1 id="close" onclick="closeTheImage()">X</h1>
+        <div id="imgMessage">
+            <h1 id="imageTitle"></h1>
+            <p id="imgContent"></p>
+            <img id="bigimg">
+        </div>
+    </div>
+    <div id="footer">
+        <i id="cpr" class="fa-solid fa-copyright"></i>
+        <span id="cprtext">This copyright belongs to JR</span>
+        <div id="social">
+           <a href="https://www.snapchat.com/" target="_blank"> <i  class="fa-brands fa-snapchat"></i></a>
+           <a href="https://www.instagram.com/_jagadeeshreddy_" target="_blank"> <i  class="fa-brands fa-instagram"></i></a>
+           <a href="https://www.facebook.com/" target="_blank"> <i  class="fa-brands fa-facebook"></i></a>
+           <a href="https://www.twitter.com" target="_blank"><i  class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+</div>
+<div id="up">
+    <a href="#" target="_top"><i id="arrow" class="fa-solid fa-arrow-up"></i></a>
+</div>
+</body>
+</html>
